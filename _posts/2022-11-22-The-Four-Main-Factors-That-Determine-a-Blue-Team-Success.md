@@ -1,6 +1,6 @@
 ---
-title: The Four Main Factors That Determine a Blue Team's Success
-date: 2022-11-22 14:00:00 +/-TTTT
+title: The Four Main Factors That Determine a Blue Team Success
+date: 2022-11-21 22:00:00 +/-TTTT
 categories: [article, security]
 tags: [security, blue-team]     # TAG names should always be lowercase
 ---
