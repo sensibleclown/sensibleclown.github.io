@@ -1,5 +1,5 @@
 ---
-title: The Future of Artificial Intelligence: How It Will Impact Humans
+title: Test
 date: 2022-11-21 15:36:20 +/-TTTT
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [TAG]     # TAG names should always be lowercase
