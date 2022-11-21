@@ -1,8 +1,8 @@
 ---
 title: The Future of Artificial Intelligence, How It Will Impact Humans
 date: 2022-11-21 14:00:00 +/-TTTT
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [TAG]     # TAG names should always be lowercase
+categories: [blog, ai]
+tags: [ai]     # TAG names should always be lowercase
 ---
 
 Artificial intelligence (AI) is making waves in the technology industry with its potential to change the world. Businesses are now racing to integrate AI into their products and services as quickly as possible. The demand for AI has grown so much that the market for AI solutions is expected to grow by more than double by 2021. With the popularity of AI increasing, businesses are trying to create new applications and services leveraging this technology. But what exactly is artificial intelligence? If you need a refresher, read on!
