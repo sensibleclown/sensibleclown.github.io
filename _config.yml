@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
   random thought.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://sensibleclown.com'
+url: 'https://sensibleclown.github.io'
 
 github:
   username: sensibleclown            # change to your github username
