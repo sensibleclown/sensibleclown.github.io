@@ -1,6 +1,6 @@
 ---
 title: The Future of Artificial Intelligence, How It Will Impact Humans
-date: 2022-11-21 14:00:00 +/-TTTT
+date: 2022-11-12 11:00:00 +/-TTTT
 categories: [article, ai]
 tags: [ai]     # TAG names should always be lowercase
 ---
