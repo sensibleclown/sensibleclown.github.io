@@ -1,5 +1,5 @@
 ---
-title: How the Mitre Att&ck Framework Can Help Improve Your Cyber Security
+title: How the Mitre Att&amp;ck Framework Can Help Improve Your Cyber Security
 date: 2023-01-04 08:00:00 +/-TTTT
 categories: [security]
 tags: [security, framework]     # TAG names should always be lowercase
