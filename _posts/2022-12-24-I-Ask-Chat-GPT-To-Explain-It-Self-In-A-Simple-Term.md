@@ -1,5 +1,5 @@
 ---
-title: I Ask Chat-GPT To Explain It Self In A Simple Term.md
+title: I Ask Chat-GPT To Explain It Self In A Simple Term
 date: 2022-12-24 08:00:00 +/-TTTT
 categories: [ai]
 tags: [ai, gpt]     # TAG names should always be lowercase
