@@ -5,10 +5,9 @@ categories: [rust]
 tags: [rust, programming]     # TAG names should always be lowercase
 ---
 
-```rust
-
 Here's an example of an HTTP server in Rust that uses the std::net and std::io libraries:
 
+```rust
 use std::net::{TcpListener, TcpStream};
 use std::io::{Read, Write};
 use std::thread;
