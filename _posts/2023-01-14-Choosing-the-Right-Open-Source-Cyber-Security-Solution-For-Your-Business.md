@@ -36,12 +36,6 @@ Open source cyber security solutions are often licensed under one of several ope
 It’s important to note that these licenses only apply to the source code and not the final product. You are free to use, modify, and distribute the source code of these solutions, as long as you abide by the terms of the license. However, you must comply with the same license when distributing your final product.
 Many of the top open source cyber security solutions are licensed under a permissive license, such as the MIT License. This license allows you to freely modify the source code and distribute your custom solution, as long as you abide by the license terms.
 
-## Choosing the right open source solution for your business
-Once you have identified your security needs and evaluated the open source solutions available, it’s time to select the best option for your business. When making this decision, consider the following factors:
-- Documentation - The first thing to look for when evaluating open source cyber security solutions is documentation. Does this tool have extensive documentation outlining its capabilities and use cases? This documentation will help you understand how to implement the solution and use its features.
-- Community - An active and engaged community is an indicator of a robust and well-maintained tool. Make sure you find out how many people are contributing to the project and what they are doing. This will help you get an idea of how the project is being maintained and if the solution is likely to remain viable in the long term.
-- Commercial support - If the open source solution you have selected does not have commercial support available, you must be prepared to support it yourself. Make sure you understand what support options are available for the solution you have selected.
-
 ## Developing a plan for implementing open source solutions
 Once you’ve selected the right open source cyber security solution for your business, it’s time to develop a plan for implementing it. This is an important step that can often be overlooked. You want to make sure you are prepared for the implementation process and address any challenges you may face. When implementing your open source cyber security solution, consider the following:
 - Timeline - Make sure you have a timeline in place for implementing your solution. This will help keep you on track and prevent you from rushing the process.
