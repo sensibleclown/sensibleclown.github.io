@@ -33,7 +33,9 @@ When selecting open source cyber security solutions, it’s important to review 
 
 ## Understanding open source licenses
 Open source cyber security solutions are often licensed under one of several open source licenses, including the MIT License, Apache License, and GPL license. These licenses regulate how the software can be shared and modified. Make sure you understand the license of the open source solution you have selected. This will help you avoid any misunderstandings or violations.
+
 It’s important to note that these licenses only apply to the source code and not the final product. You are free to use, modify, and distribute the source code of these solutions, as long as you abide by the terms of the license. However, you must comply with the same license when distributing your final product.
+
 Many of the top open source cyber security solutions are licensed under a permissive license, such as the MIT License. This license allows you to freely modify the source code and distribute your custom solution, as long as you abide by the license terms.
 
 ## Developing a plan for implementing open source solutions
