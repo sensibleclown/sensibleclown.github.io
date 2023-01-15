@@ -11,7 +11,7 @@ A function is required that accepts a non-empty array of unique integers and a t
 ## Solution
 This code is a Rust implementation of a function called "two_number_sum" that takes in two arguments, a mutable reference to a vector of integers array and an integer target_sum. It returns a vector of integers.
 
-## Solution 1
+### Solution 1
 ```rust
 use std::collections::HashSet;
 
@@ -46,7 +46,7 @@ After the for loop completes, if no pair of elements that add up to the target s
 The use of a HashSet allows the function to efficiently check if an element is present in the array and is a more efficient way than using nested loops as it allows for constant time lookups.
 
 
-## Solution 2
+### Solution 2
 ```rust
 fn two_number_sum(array: &mut Vec<i32>, target_sum: i32) -> Vec<i32> {
     array.sort();
@@ -66,23 +66,16 @@ fn two_number_sum(array: &mut Vec<i32>, target_sum: i32) -> Vec<i32> {
     vec![]
 }
 ```
-The code starts by sorting the input array in ascending order using the sort() method.
+The code starts by sorting the input array in ascending order using the sort() method. Then it initializes two pointers, left and right . left is set to the start of the array and right to the end of the array.
+The function then enters a while loop that continues until the left pointer is less than the right pointer. Inside the while loop, the function calculates the current sum by adding the elements at the left and right pointers. 
 
-Then it initializes two pointers, left and right . left is set to the start of the array and right to the end of the array.
-
-The function then enters a while loop that continues until the left pointer is less than the right pointer.
-
-Inside the while loop, the function calculates the current sum by adding the elements at the left and right pointers.
-
-If the current sum is equal to the target sum, the function returns a vector containing the elements at the left and right pointers.
-
+If the current sum is equal to the target sum, the function returns a vector containing the elements at the left and right pointers. 
 If the current sum is less than the target sum, the left pointer is incremented.
-
 If the current sum is greater than the target sum, the right pointer is decremented.
 
 After the while loop completes, if no pair of elements that add up to the target sum is found, the function
 
-## Option 3
+### Solution 3
 ```rust
 fn two_number_sum(array: &mut Vec<i32>, target_sum: i32) -> Vec<i32> {
     for i in 0..array.len() - 1 {
