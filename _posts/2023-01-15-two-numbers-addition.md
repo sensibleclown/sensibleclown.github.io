@@ -1,8 +1,6 @@
-2023-01-15-two-numbers-addition.md
-
 ---
 title: Two numbers addition
-date: 2023-01-15 10:00:00 +/-TTTT
+date: 2023-01-15 08:00:00 +/-TTTT
 categories: [rust]
 tags: [rust, programming, algorithm]     # TAG names should always be lowercase
 ---
