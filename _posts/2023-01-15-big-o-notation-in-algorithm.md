@@ -2,7 +2,7 @@
 title: Big-O Notation in Algorithm
 date: 2023-01-15 08:00:00 +/-TTTT
 categories: [programming]
-tags: [algorithm]     # TAG names should always be lowercase
+tags: [algorithm] # TAG names should always be lowercase
 ---
 
 Big-O notation is a method of communicating the upper limit of the running time complexity of an algorithm; it is basically a way to illustrate how the runtime of an algorithm increases as the size of the input grows. 
