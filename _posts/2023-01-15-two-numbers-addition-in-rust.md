@@ -8,7 +8,10 @@ tags: [rust, programming, algorithm]     # TAG names should always be lowercase
 ## Problem
 A function is required that accepts a non-empty array of unique integers and a target sum integer as input. If any two integers in the input array add up to the target sum, the function should return them in any order within an array. If no two integers in the array sum up to the target sum, the function should return an empty array. It's important to note that the target sum can only be obtained by adding two distinct integers from the array and it's not possible to use a single integer twice to obtain the target sum.
 
-## Alternative 1
+## Solution
+This code is a Rust implementation of a function called "two_number_sum" that takes in two arguments, a mutable reference to a vector of integers array and an integer target_sum. It returns a vector of integers.
+
+## Solution 1
 ```rust
 use std::collections::HashSet;
 
@@ -28,7 +31,22 @@ fn two_number_sum(array: &mut Vec<i32>, target_sum: i32) -> Vec<i32> {
 }
 ```
 
-## Alternative 2
+The function uses a HashSet, a data structure from the standard library's std::collections module, to keep track of integers in the input array.
+
+The code starts by initializing an empty HashSet called s. Then, it iterates over each element in the input array using a for loop.
+
+For each iteration, the code calculates match1 which is the target sum minus the current element in the array.
+
+Then, it checks if the calculated match1 is already present in the HashSet using the contains method, if match1 is present it means that we have found a pair of elements in the array that add up to the target sum, so the function returns a vector containing these two elements.
+
+If match1 is not present in the HashSet, the current element is inserted into the HashSet using the insert method.
+
+After the for loop completes, if no pair of elements that add up to the target sum is found, the function returns an empty vector.
+
+The use of a HashSet allows the function to efficiently check if an element is present in the array and is a more efficient way than using nested loops as it allows for constant time lookups.
+
+
+## Solution 2
 ```rust
 fn two_number_sum(array: &mut Vec<i32>, target_sum: i32) -> Vec<i32> {
     array.sort();
@@ -48,8 +66,23 @@ fn two_number_sum(array: &mut Vec<i32>, target_sum: i32) -> Vec<i32> {
     vec![]
 }
 ```
+The code starts by sorting the input array in ascending order using the sort() method.
 
-## Alternative 2
+Then it initializes two pointers, left and right . left is set to the start of the array and right to the end of the array.
+
+The function then enters a while loop that continues until the left pointer is less than the right pointer.
+
+Inside the while loop, the function calculates the current sum by adding the elements at the left and right pointers.
+
+If the current sum is equal to the target sum, the function returns a vector containing the elements at the left and right pointers.
+
+If the current sum is less than the target sum, the left pointer is incremented.
+
+If the current sum is greater than the target sum, the right pointer is decremented.
+
+After the while loop completes, if no pair of elements that add up to the target sum is found, the function
+
+## Option 3
 ```rust
 fn two_number_sum(array: &mut Vec<i32>, target_sum: i32) -> Vec<i32> {
     for i in 0..array.len() - 1 {
@@ -62,6 +95,13 @@ fn two_number_sum(array: &mut Vec<i32>, target_sum: i32) -> Vec<i32> {
     vec![]
 }
 ```
+The function starts by using two nested for loops to iterate over all pairs of elements in the input array. The outer loop iterates over the elements starting at index 0, and the inner loop iterates over the elements starting at an index one greater than the current index of the outer loop.
+
+For each pair of elements, the function checks if their sum is equal to the target sum. If it is, the function returns a vector containing these two elements.
+
+If the loops complete without finding a pair of elements that add up to the target sum, the function returns an empty vector.
+
+This code will check all possible pairs of elements in the array. As the number of pairs is n(n-1)/2 where n is the number of elements in the array, the time complexity of this algorithm is O(n^2) and it may not be the most efficient solution for large arrays.
 
 ## Test
 ```rust
