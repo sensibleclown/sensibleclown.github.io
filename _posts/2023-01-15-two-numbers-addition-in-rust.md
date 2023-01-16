@@ -73,7 +73,9 @@ If the current sum is equal to the target sum, the function returns a vector con
 If the current sum is less than the target sum, the left pointer is incremented.
 If the current sum is greater than the target sum, the right pointer is decremented.
 
-After the while loop completes, if no pair of elements that add up to the target sum is found, the function
+After the while loop completes, if no pair of elements that add up to the target sum is found, the function returns an empty vector.
+
+This is a implementation of Two pointer algorithm to find two number sum in a array which matches target sum, which is a O(n) time complexity algorithm.
 
 ### Solution 3
 ```rust
