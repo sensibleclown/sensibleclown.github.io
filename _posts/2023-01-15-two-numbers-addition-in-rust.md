@@ -45,7 +45,6 @@ After the for loop completes, if no pair of elements that add up to the target s
 
 The use of a HashSet allows the function to efficiently check if an element is present in the array and is a more efficient way than using nested loops as it allows for constant time lookups.
 
-
 ### Solution 2
 ```rust
 fn two_number_sum(array: &mut Vec<i32>, target_sum: i32) -> Vec<i32> {
