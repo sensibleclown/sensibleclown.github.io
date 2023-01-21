@@ -1,8 +1,8 @@
 ---
 title: Simple HTTP Server in Rust
 date: 2023-01-06 08:00:00 +/-TTTT
-categories: [rust]
-tags: [rust, programming]     # TAG names should always be lowercase
+categories: [programming]
+tags: [rust] # TAG names should always be lowercase
 ---
 
 Here's an example of an HTTP server in Rust that uses the std::net and std::io libraries:

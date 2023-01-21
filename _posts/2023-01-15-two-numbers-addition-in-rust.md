@@ -1,8 +1,8 @@
 ---
 title: Two numbers addition in Rust
 date: 2023-01-15 08:00:00 +/-TTTT
-categories: [rust]
-tags: [rust, programming, algorithm] # TAG names should always be lowercase
+categories: [programming]
+tags: [rust, algorithm] # TAG names should always be lowercase
 ---
 
 ## Problem

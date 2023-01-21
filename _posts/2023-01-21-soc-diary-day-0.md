@@ -2,7 +2,7 @@
 title: SOC Diary - Day 0
 date: 2023-01-21 08:00:00 +/-TTTT
 categories: [security]
-tags: [soc, soc-diary] # TAG names should always be lowercase
+tags: [soc] # TAG names should always be lowercase
 ---
 
 From now on I’m going to start writing a series of articles about SOC development and operation as part of my daily routine. I will focus on topics such as threat intelligence, incident response, security automation, and security operations best practices. I will also provide case studies and examples of how to apply these topics in real-world scenarios.
