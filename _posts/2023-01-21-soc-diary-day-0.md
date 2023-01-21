@@ -11,8 +11,6 @@ I aim to make my articles useful for both experienced security professionals and
 
 I plan to update my articles regularly starting with the development of an SOC and then proceeding to the operation. I will also update my articles with new information and insights into the latest trends in the industry. In addition, I will be open to feedback from readers so that I can continue to refine my content and keep it up-to-date with changes in the field.
 
-My series of articles is intended to be a comprehensive resource for anyone interested in SOC development or operations, providing them with an easy-to-understand overview.
-
 ## Building SOC
 
 Building a Security Operations Center (SOC) is an important step in securing an organization's infrastructure and data. A SOC is a centralized team responsible for monitoring and analyzing an organization's security posture, identifying potential threats, and responding to security incidents. The SOC team typically consists of SOC Managers, security analysts, system administrators, incident responders and Threat intelligence officers.
