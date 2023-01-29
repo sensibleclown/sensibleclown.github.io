@@ -5,8 +5,6 @@ categories: [programming, algorithms]
 tags: [rust, programming-challenge, easy] # TAG names should always be lowercase
 ---
 
-## Problem
-
 A subsequence in an array is a group of numbers that retain their sequence order, but may not be consecutively placed. For example, [1, 3, 4] is a subsequence of [1, 2, 3, 4] and [2, 4] is also a valid subsequence. It's worth noting that both a single number and the entire array can also be considered as subsequences.
 
 ## Solution

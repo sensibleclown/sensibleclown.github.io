@@ -5,8 +5,6 @@ categories: [programming, algorithms]
 tags: [rust, programming-challenge, easy] # TAG names should always be lowercase
 ---
 
-## Problem
-
 A function is required that accepts a non-empty array of unique integers and a target sum integer as input. If any two integers in the input array add up to the target sum, the function should return them in any order within an array. If no two integers in the array sum up to the target sum, the function should return an empty array. It's important to note that the target sum can only be obtained by adding two distinct integers from the array and it's not possible to use a single integer twice to obtain the target sum.
 
 ## Solutions
