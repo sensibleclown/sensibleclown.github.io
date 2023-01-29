@@ -44,11 +44,11 @@ before we begin, we need to prepare a few thing :
 
    ```bash
    # my windows machine IP is 192.168.231.130, Yours might be different
-   $ **nc 192.168.231.130 9999**
+   $ nc 192.168.231.130 9999
    Welcome to Vulnerable Server! Enter HELP for help.
 
    # typing ‘HELP’ will display all of the available command bellow
-   **HELP**
+   HELP
    Valid Commands:
    HELP
    STATS [stat_value]
