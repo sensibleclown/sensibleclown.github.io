@@ -2,7 +2,7 @@
 title: Two numbers addition in Rust
 date: 2023-01-15 08:00:00 +/-TTTT
 categories: [programming, algorithms]
-tags: [rust, programming-challenge] # TAG names should always be lowercase
+tags: [rust, programming-challenge, easy] # TAG names should always be lowercase
 ---
 
 ## Problem
@@ -104,7 +104,7 @@ If the loops complete without finding a pair of elements that add up to the targ
 
 This code will check all possible pairs of elements in the array. As the number of pairs is n(n-1)/2 where n is the number of elements in the array, the time complexity of this algorithm is O(n^2) and it may not be the most efficient solution for large arrays.
 
-## Test
+## Test Case
 
 ```rust
 #[cfg(test)]
