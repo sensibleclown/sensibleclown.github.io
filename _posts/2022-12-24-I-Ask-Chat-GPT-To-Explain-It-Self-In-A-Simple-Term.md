@@ -1,11 +1,11 @@
 ---
 title: I Ask Chat-GPT To Explain It Self In A Simple Term
 date: 2022-12-24 08:00:00 +/-TTTT
-categories: [ai]
-tags: [ai, gpt]     # TAG names should always be lowercase
+categories: [ai, general-ai]
+tags: [gpt] # TAG names should always be lowercase
 ---
 
-So, today I ask chat-GPT to explain GPT-3 and the next GPT-4 in a simple term, and here is the result : 
+So, today I ask chat-GPT to explain GPT-3 and the next GPT-4 in a simple term, and here is the result :
 
 GPT-3, or Generative Pre-trained Transformer 3, is a powerful artificial intelligence (AI) model developed by OpenAI. It is capable of generating human-like text, completing tasks such as translation and summarization, and even creating original content. GPT-3 is considered one of the most advanced AI language models to date, and it has the potential to revolutionize how we use language and communicate with computers.
 

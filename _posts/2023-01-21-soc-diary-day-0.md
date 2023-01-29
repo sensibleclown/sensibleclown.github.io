@@ -1,7 +1,7 @@
 ---
 title: SOC Diary - Day 0
 date: 2023-01-21 08:00:00 +/-TTTT
-categories: [security]
+categories: [security, blue-team]
 tags: [soc] # TAG names should always be lowercase
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: How Hashgraph Stands Out Amongst Other Distributed Ledger Technology?
 date: 2023-01-21 14:00:00 +/-TTTT
-categories: [dlt]
+categories: [dlt, general-dlt]
 tags: [hashgraph] # TAG names should always be lowercase
 ---
 

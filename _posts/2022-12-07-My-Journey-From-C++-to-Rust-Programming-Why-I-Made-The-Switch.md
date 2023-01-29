@@ -1,7 +1,7 @@
 ---
 title: My Journey From C++ to Rust Programming, Why I Made The Switch
 date: 2022-12-07 08:00:00 +/-TTTT
-categories: [programming]
+categories: [programming, general-programming]
 tags: [rust] # TAG names should always be lowercase
 ---
 
