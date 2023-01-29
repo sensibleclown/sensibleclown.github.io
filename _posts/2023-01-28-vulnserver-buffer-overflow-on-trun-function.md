@@ -354,7 +354,7 @@ check to see if there is any skipped characters all the way from 01 to FF. if th
 
 ### Nop Sled (\x90)
 
-This refer to the sequence of instruction that contain no-operation. so we tell the computer to do nothing and move to the next instruction. the machine instruction for that is \x90. The Nop-sled part in our payload is important to add some reliability in it. This is partly because memory moves around slightly, and our code is jumping around from EIP to the pointer of ESP then finally jump to ESP, there is a chance our memory address slightly moved to other location. So wherever our code land in a nop-sled it will slide the execution into our shell code.
+This refer to the sequence of instruction that contain no-operation. so we tell the computer to do nothing and move to the next instruction. the machine instruction for that is \x90. The Nop-sled part in our payload is important to add some reliability in our exploit. This is partly because memory moves around slightly, and our code is jumping around from EIP to the pointer of ESP then finally jump to ESP, there is a chance our memory address slightly moved to other location. So wherever our code land in a nop-sled it will slide the execution into our shell code.
 
 ![No-op-Sled](/assets/img/2023-28-01/nop_sled.png)
 
