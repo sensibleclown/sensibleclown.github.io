@@ -60,7 +60,7 @@ Once this information has been gathered, it is possible to create a comprehensiv
 
 Using the data in the table, it is possible to generate a graphical representation of the organization's protection capabilities.
 
-![protection capabilities](/assets/img/2023-03-03/layered-protection.png)
+![protection capabilities](assets/img/2023-03-03/layered-protection.png)
 _Protection Capabilities - Layered Protection_
 
 The graphics presented above clearly highlight the organization's strengths and weaknesses in terms of protection capabilities. Specifically, the organization appears to have a strong protections in the area of data security, while there is room for improvement in the area of application security.
@@ -69,10 +69,10 @@ The graphics presented above clearly highlight the organization's strengths and 
 
 One alternative method for evaluating protection capability is to utilize the Mitre Att&ck Framework, which involves mapping protective measures and controls against the various tactics and techniques that are visible in the framework.
 
-![protection capabilities - Mitre Att&ck Phases](/assets/img/2023-03-03/attack-phases.png)
+![protection capabilities - Mitre Att&ck Phases](assets/img/2023-03-03/attack-phases.png)
 _Protection Capabilities - Mitre Att&ck Phases_
 
-Mitre Att&ck provide very comprehensive of detailed controls for every phases of an attack. To achieve this I have compiled all of these controls into the following [Excel](/assets/img/2023-03-03/attack-phases.png) file.
+Mitre Att&ck provide very comprehensive of detailed controls for every phases of an attack. To achieve this I have compiled all of these controls into the following [Excel](assets/img/2023-03-03/attack-phases.png) file.
 
 ## Related Posts
 
