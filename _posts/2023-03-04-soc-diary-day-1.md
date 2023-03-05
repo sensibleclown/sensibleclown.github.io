@@ -72,7 +72,7 @@ One alternative method for evaluating protection capability is to utilize the Mi
 ![protection capabilities - Mitre Att&ck Phases](/assets/img/2023-03-03/attack-phases.png)
 _Protection Capabilities - Mitre Att&ck Phases_
 
-Mitre Att&ck provide very comprehensive of detailed controls for every phases of an attack. To achieve this I have compiled all of these controls into the following [Excel](/assets/file/2023-03-03/mitre_mapping.xlsx) file.
+Mitre Att&ck provide very comprehensive of detailed controls for every phases of an attack. To achieve this I have compiled all of these controls into the following [Excel](/assets/img/2023-03-03/attack-phases.png) file.
 
 ## Related Posts
 
