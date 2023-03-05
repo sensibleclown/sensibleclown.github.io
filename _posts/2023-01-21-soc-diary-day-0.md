@@ -30,3 +30,7 @@ Building SOC is a complex and ongoing process that requires careful planning, im
 Finally, organizations should ensure that their SOC is properly integrated into their overall security strategy. This includes ensuring that all processes, technologies, and personnel are aligned with the organization’s security goals and objectives. Doing so will help organizations better detect, respond to, and mitigate potential security incidents in a timely manner.
 
 In the next article, we will cover the first step in building SOC. Assess the organization's current security posture and identify any gaps or weaknesses.
+
+## Related Posts
+
+1. [SOC Diary - Day 1 - Assessing Organization Current Security Profile](https://sensibleclown.com/posts/soc-diary-day-1/)
