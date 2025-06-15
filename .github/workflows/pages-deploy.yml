@@ -35,22 +35,25 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Debug Environment
+     - name: Debug Environment
         run: |
           ruby -v
-          bundle -v
           gem -v
-          pwd
-          ls
+          gem list bundler
+          which ruby
+          which gem
+          which bundle
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3.0  # Specific version
+          ruby-version: 3.2.3
+          bundler: latest
           bundler-cache: true
 
-      - name: Install Dependencies
+     - name: Install Dependencies
         run: |
+          gem update --system
           gem install bundler
           bundle config set deployment 'true'
           bundle install --jobs 4 --retry 3 --verbose
