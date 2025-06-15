@@ -50,7 +50,7 @@ jobs:
           bundler: latest
           bundler-cache: true
 
-     - name: Install Dependencies
+      - name: Install Dependencies
         run: |
           gem update --system
           gem install bundler
