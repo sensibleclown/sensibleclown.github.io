@@ -1,6 +1,7 @@
 ---
 title: SOC Diary - Day 1 - Assessing Organization Current Security Profile
 date: 2023-03-04 08:00:00 +/-TTTT
+published: false
 categories: [security, blue-team]
 tags: [soc] # TAG names should always be lowercase
 ---
