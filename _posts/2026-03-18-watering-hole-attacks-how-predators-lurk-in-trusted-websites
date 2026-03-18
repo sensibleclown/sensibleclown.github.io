@@ -5,13 +5,6 @@ categories: [security]
 tags: [watering hole, APT, threat intelligence, browser security, red team, blue team] # TAG names should always be lowercase
 ---
 
----
-title: CVE-2026-3909 & CVE-2026-3910 Technical Deep Dive into Chrome's Dual Zero-Day Exploit Chain
-date: 2026-03-16 20:00:00 +/-TTTT
-categories: [zero-day, security]
-tags: [chrome, zero-day, cve, skia, v8, memory corruption, sandbox escape, exploit analysis] # TAG names should always be lowercase
----
-
 ## Introduction
 
 In the African savanna, a lion does not chase every animal in the herd. Instead, it waits at the one place every animal must eventually visit: the watering hole. The prey comes willingly, driven by need, into a carefully chosen ambush.
