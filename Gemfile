@@ -7,6 +7,10 @@ group :test do
   gem "html-proofer", "~> 5.0"
 end
 
+group :jekyll_plugins do
+  gem "jekyll-sass-converter", "~> 3.0"
+end
+
 platforms :windows, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
