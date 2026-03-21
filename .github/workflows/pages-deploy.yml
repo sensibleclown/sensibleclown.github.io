@@ -25,14 +25,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           submodules: recursive
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Cleanup Gemfile
         run: |
@@ -43,26 +43,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2.3
-          bundler: 2.4.19
-          bundler-cache: false
-
-      - name: Configure Git
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
-
-      - name: Install Dependencies
-        run: |
-          gem update --system
-          gem install bundler
-          bundle config unset deployment
-          bundle install --jobs 4 --retry 3
-
-      - name: Update Lockfile
-        run: |
-          bundle lock --update
-          git add Gemfile Gemfile.lock
+          ruby-version: 3.4
+          bundler-cache: true
 
       - name: Build site
         run: bundle exec jekyll build -d "_site${{ steps.pages.outputs.base_path }}"
@@ -76,7 +58,7 @@ jobs:
             --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
