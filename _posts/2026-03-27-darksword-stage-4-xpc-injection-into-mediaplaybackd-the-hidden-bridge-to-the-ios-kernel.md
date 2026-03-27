@@ -1,5 +1,5 @@
 ---
-title: CVE-2025-14174 The ANGLE Graphics Bug That Let DarkSword Escape Safari's Sandbox
+title: DarkSword Stage 4 XPC Injection into mediaplaybackd — The Hidden Bridge to the iOS Kernel
 date: 2026-03-27 00:00:00 +/-TTTT
 categories: [security]
 tags: [darksword, xpc, mediaplaybackd, ios ipc, privilege escalation, CVE-2025-43510, applem2scalercscdriver, sandbox escape, kernel, process injection]
