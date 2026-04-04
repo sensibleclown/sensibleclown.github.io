@@ -1,7 +1,7 @@
 ---
 title: DarkSword Stage 4 XPC Injection into mediaplaybackd — The Hidden Bridge to the iOS Kernel
 date: 2026-03-27 00:00:00 +/-TTTT
-categories: [security]
+categories: [security, darksword]
 tags: [darksword, xpc, mediaplaybackd, ios ipc, privilege escalation, CVE-2025-43510, applem2scalercscdriver, sandbox escape, kernel, process injection]
 ---
 
